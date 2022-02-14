@@ -1,8 +1,9 @@
 import axios from "axios";
 import { ethers } from "ethers";
 import { create, urlSource } from "ipfs-http-client";
-import DaoFactory from "../contract/DaoFactory.json";
-import InstaDao from "../contract/InstaDao.json";
+
+const DaoFactory: any = require("../contract/DaoFactory.json");
+const InstaDao: any = require("../contract/InstaDao.json");
 
 declare let window: any;
 
